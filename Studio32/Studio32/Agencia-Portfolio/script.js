@@ -157,8 +157,9 @@ magnetics.forEach(btn => {
         gsap.to(this, {
             x: x,
             y: y,
-            duration: 1,
-            ease: "power4.out"
+            duration: 0.6,
+            ease: "power3.out",
+            overwrite: true
         });
 
         cursor.classList.add('active');
@@ -170,7 +171,8 @@ magnetics.forEach(btn => {
             x: 0,
             y: 0,
             duration: 1,
-            ease: "elastic.out(1, 0.3)"
+            ease: "elastic.out(1, 0.3)",
+            overwrite: true
         });
 
         cursor.classList.remove('active');
