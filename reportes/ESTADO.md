@@ -16,8 +16,10 @@
 
 ## 🔧 En curso / decisiones que necesito
 
-- **Aviso de reservas a la clínica:** HOY la reserva se ve en el dashboard, pero NO
-  llega un email a la clínica. Falta configurar el correo de avisos. → Siguiente.
+- **Aviso de reservas: ✅ FUNCIONANDO.** Cada reserva, cancelación o lead dispara un
+  email desde `citas@studio32.es`. Durante las pruebas llega a
+  `soporte.studio32@gmail.com`; al go-live se apunta al correo de la clínica
+  (Gabriela). Probado de punta a punta (email "Delivered").
 - **Nombre del agente:** sin nombre humano de momento. Pendiente de que Gabriela
   decida.
 
