@@ -18,11 +18,16 @@
 
 ## 🚨 Bloqueante para entregar
 
-1. **El agente olvida las citas al actualizar el sistema.** Se guardan en un archivo
-   que se borra en cada despliegue → riesgo de citar a dos pacientes a la misma hora.
-   *Solución:* disco permanente en el servidor + conectar Google Calendar.
-2. **Google Calendar sin conectar.** Falta la cuenta técnica de Studio32 y que la
-   clínica comparta su calendario con ella. Es lo que además resuelve el punto 1.
+1. ~~El agente olvida las citas al actualizar~~ → **RESUELTO el 27/07.** Se conectó un
+   disco permanente al servidor. Verificado: se reserva una cita, se actualiza el
+   sistema, y la cita **sigue ahí**. Ya no hay riesgo de citar a dos pacientes a la
+   misma hora por este motivo.
+2. **Google Calendar sin conectar.** No existe todavía la cuenta técnica de Google.
+   Plan acordado: el calendario lo crea Studio32 (uno por cliente) y se invita por
+   correo a la clínica, que solo tiene que aceptar.
+   ⚠️ **Antes hay que preguntar a la clínica dónde lleva su agenda hoy**: el agente
+   mira un único calendario, así que las citas que entren por teléfono tienen que
+   estar ahí también, o habrá solapamientos.
 
 ## ⏳ Pendiente para el go-live real
 
