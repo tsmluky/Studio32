@@ -48,3 +48,27 @@
 
 - Convertir "investigar negocio → crear personalidad a medida" en una **herramienta
   reutilizable**, para montar cada cliente nuevo en minutos.
+
+## 🆕 Sesión 31/07 – 01/08 · la web ya enseña el agente de verdad
+
+Traspaso completo, con las trampas técnicas: `reportes/2026-08-01-traspaso.md`.
+
+**Lo importante en llano:**
+
+- **studio32.es ya deja hablar con el agente.** No es un vídeo ni una captura:
+  el visitante escribe y contesta el mismo agente que atiende WhatsApp, y ve el
+  panel del negocio actualizarse mientras habla, con la cita apareciendo de verdad.
+- **Tres sectores para elegir**: clínica, restaurante y servicio local. Cada uno
+  es un negocio distinto de verdad, con su forma de hablar y sus normas. El del
+  restaurante conoce la carta y los alérgenos; el de servicios no da precios a
+  ciegas, pregunta lo que haría un técnico y pasa el aviso con todo apuntado.
+- **El agente habla mucho mejor.** Antes sonaba a folleto ("contamos con un
+  enfoque cuidadoso"). Ahora suena a recepción: *"Tranquilo, aquí entra gente que
+  lleva más tiempo. La primera visita es solo mirar y contarte qué hay, sin coste."*
+- **La web cambió de aspecto**: era oscura y se veía apagada; ahora es clara.
+- **Cada visitante tiene su propia agenda**, así que las pruebas de unos no
+  ocupan huecos a otros, y hay topes de uso para que la demo no dispare el coste.
+
+**Lo que sigue parado y es lo único que separa de facturar:** GH Dent, con sus
+dos bloqueantes de siempre — verificar el número en Meta y conectar el Google
+Calendar. Ninguno de los dos es programar.
