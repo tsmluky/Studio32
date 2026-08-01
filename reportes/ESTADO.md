@@ -72,3 +72,29 @@ Traspaso completo, con las trampas técnicas: `reportes/2026-08-01-traspaso.md`.
 **Lo que sigue parado y es lo único que separa de facturar:** GH Dent, con sus
 dos bloqueantes de siempre — verificar el número en Meta y conectar el Google
 Calendar. Ninguno de los dos es programar.
+
+## 🆕 Sesión larga 01/08 (tarde) · la web pasa de una página a seis
+
+**Lo nuevo, en llano:**
+
+- **Tres páginas por sector**: clínicas dentales, restaurantes y servicios
+  locales. Cada una abre con el agente de ESE sector ya listo para hablar, así
+  que se le puede mandar a un prospecto el enlace de lo suyo. Además son las
+  páginas que Google puede encontrar cuando alguien busca "agente WhatsApp
+  clínica dental", que hasta hoy no existían.
+- **Una página del panel** que se puede recorrer entero: resumen, conversaciones,
+  calendario de citas, servicios editables y el asistente. Está hecha mirando el
+  panel de verdad, no inventada.
+- **Una página de precio** que explica cómo se paga y, sobre todo, aclara algo
+  que casi nadie cuenta: **WhatsApp no cobra cuando es el cliente quien escribe
+  primero**, y las primeras 1.000 conversaciones al mes son gratis. Para una
+  recepción eso significa que ese coste, en la práctica, es cero.
+- **El pie de la web** ahora lleva a todas esas páginas, que además ayuda a que
+  Google las encuentre.
+- **Arreglado**: la cabecera de las preguntas frecuentes ya se queda quieta
+  mientras bajas, la burbuja de chat de la esquina se ha quitado (estorbaba y
+  confundía con la demo), y la web carga más rápido para quien repite visita.
+
+**Lo que sigue igual y sigue siendo lo importante:** GH Dent. Verificar el número
+en Meta y conectar el Google Calendar. Nada de esto es programar, y es lo único
+que separa de facturar.
