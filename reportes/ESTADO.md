@@ -1,6 +1,28 @@
 # Estado actual · Agente de IA (foco: GH Dent)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 27/07/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 05/08/2026.
+
+## 🆕 Sesión 05/08 · el Hub ya reparte trabajo comercial
+
+Detalle completo: `reportes/2026-08-05.md`.
+
+Se ha construido la prospección dentro del Hub. Pancho prepara una tanda de negocios a los
+que escribir y Juanma entra, los revisa y los envía. Cada correo se apoya en algo real de
+ese negocio —lo que dicen sus propios clientes en las reseñas— y **debajo están las citas
+literales que lo sostienen**, para que quien revisa pueda comprobarlo y defenderlo.
+
+Probado con una clínica dental de Guadalajara, 22 reseñas leídas. Sus pacientes la adoran
+por el trato, y lo único de lo que se quejan es de las esperas y las citas — que es justo lo
+que arreglamos. La queja no se menciona en el correo, a propósito. El nombre no se pone aquí
+porque este repositorio es público; está en el Hub.
+
+Se puede ver ya, sin tocar el Hub del día a día:
+**https://feat-prospeccion-email.studio32-hub.pages.dev**
+
+**Falta para poder enviar:** conectar la cuenta de correo y dar permiso desde Supabase, y
+probarlo antes con una dirección nuestra. Ninguna de las dos es programar.
+
+**Y sigue parado lo de siempre:** GH Dent, con Meta y el Google Calendar.
 
 ## ✅ Hecho y probado en vivo
 
