@@ -1,6 +1,6 @@
 # Estado actual · Agente de IA (foco: GH Dent)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 05/08/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 11/08/2026.
 
 ## 🆕 Sesión 05/08 · el Hub ya reparte trabajo comercial
 
@@ -19,8 +19,9 @@ porque este repositorio es público; está en el Hub.
 Se puede ver ya, sin tocar el Hub del día a día:
 **https://feat-prospeccion-email.studio32-hub.pages.dev**
 
-**Falta para poder enviar:** conectar la cuenta de correo y dar permiso desde Supabase, y
-probarlo antes con una dirección nuestra. Ninguna de las dos es programar.
+~~**Falta para poder enviar:** conectar la cuenta de correo y dar permiso desde
+Supabase.~~ → **RESUELTO el 11/08.** Se conectó, se probó con una dirección nuestra y el
+primer correo salió de verdad. Ver la sección del 11/08 al final.
 
 **Y sigue parado lo de siempre:** GH Dent, con Meta y el Google Calendar.
 
@@ -120,3 +121,33 @@ Calendar. Ninguno de los dos es programar.
 **Lo que sigue igual y sigue siendo lo importante:** GH Dent. Verificar el número
 en Meta y conectar el Google Calendar. Nada de esto es programar, y es lo único
 que separa de facturar.
+
+---
+
+## 🆕 Sesión 11/08 · ya podemos captar clientes desde el Hub
+
+Detalle completo: `reportes/2026-08-11.md`.
+
+**Hecho y probado con un envío real:**
+
+- **El Hub manda correos a posibles clientes.** Se pide una campaña ("clínicas
+  dentales en Alcalá, 20"), la máquina investiga cada negocio y escribe su correo, y
+  aparecen en el Hub para aprobar. Se aprueba, se envía.
+- **Cada uno firma con su dirección**: juanma@, gonzalo@ y francisco@studio32.es. Si el
+  negocio responde, **la respuesta cae en nuestra bandeja de siempre**.
+- **Ningún correo sale sin que una persona lo apruebe.** Comprobado.
+- **A quien pide la baja no se le vuelve a escribir.** Comprobado: se intentó enviar a
+  propósito a una dirección dada de baja y el sistema se negó.
+
+**⚠️ Necesita a alguien:**
+
+- Hay un correo preparado para **Clínica Dental Dr. Garcés** esperando en el Hub, en
+  "pendiente de revisar". Alguien tiene que leerlo y decidir si sale.
+- Si un negocio responde "BAJA", esa respuesta llega al correo pero **hay que pasarla a
+  mano** pulsando "No escribir más" en el Hub.
+
+**Pendiente:** dejar la pantalla bonita (es lo siguiente), una página de bajas, y probar
+una campaña completa de verdad.
+
+**Lo que sigue siendo lo importante:** GH Dent. Verificar el número en Meta y conectar
+el Google Calendar. Esto de captación avanza en paralelo, pero no mueve ese reloj.
