@@ -1,8 +1,26 @@
 # Estado actual · Agente de IA (foco: GH Dent)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 11/08/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 12/08/2026.
 
-## 🆕 Sesión 05/08 · el Hub ya reparte trabajo comercial
+## 🆕 Sesión 12/08 · hay cuatro correos esperando visto bueno
+
+Detalle completo: `reportes/2026-08-12.md`.
+
+La máquina ha buscado clientes sola por primera vez. De una campaña pedida desde el Hub
+—fisioterapia en Guadalajara— ha salido con **cuatro correos escritos y en borrador**,
+cada uno apoyado en una reseña concreta de un paciente de ese centro.
+
+**Lo que hace falta de nosotros: entrar en el Hub, leerlos y aprobar los que convenzan.**
+Nada sale hasta entonces. Antes de dar a enviar, leer la lista de destinatarios que
+aparece en la confirmación: en la cola queda material viejo de pruebas.
+
+Se pidieron 10 y hay 4: seis se descartaron por no tener ni una reseña citable, y la
+campaña sigue abierta para completarla en otra pasada.
+
+**Y sigue parado lo de siempre:** GH Dent, con Meta y el Google Calendar. Esto es
+captación, no producto — el reloj del primer cliente no se ha movido.
+
+## Sesión 05/08 · el Hub ya reparte trabajo comercial
 
 Detalle completo: `reportes/2026-08-05.md`.
 
