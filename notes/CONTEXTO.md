@@ -77,9 +77,17 @@ enseñar eso, no "contesta 24/7", que ya es comodidad de cualquiera.
 
 ## Mapa del workspace
 
-Todo vive bajo `Studio32/` (la raíz del workspace, que en sí NO es un repositorio —
-por eso nada de lo que se deje ahí suelto viaja entre máquinas). Dentro, `repos/`
-tiene los repos git de verdad:
+> ⚠️ **La organización de carpetas NO es la misma en cada máquina, y los nombres de
+> las carpetas tampoco.** En el portátil los repos cuelgan de `repos/studio32/`; en el
+> sobremesa están repartidos en `repos/interno/`, `repos/web/`, `repos/productos/`,
+> `repos/plataforma/` y `repos/clientes/`, y alguna carpeta se llama distinto del repo
+> que contiene. Por eso **aquí los repos se nombran por su nombre de repo, nunca por su
+> ruta**. Si necesitas localizar uno, búscalo por nombre o mira su `git remote -v`; no
+> des por buena ninguna ruta que leas en documentación vieja.
+
+La raíz del workspace (la carpeta `Studio32/` que abres con Claude Code) **no es un
+repositorio**: lo que se deje suelto ahí no viaja entre máquinas. Solo viaja lo que
+esté dentro de un repo git.
 
 | Superficie viva | Repo | Qué es |
 |---|---|---|
@@ -92,21 +100,24 @@ tiene los repos git de verdad:
 `studio32-hub-live` y `studio32-dashboard-deploy` son **builds generados**: no se
 editan a mano, se despliegan desde sus repos gemelos.
 
-Este mismo repo, `Studio32` (el meta-repo, con `reportes/` y `notes/`), es donde vive
-el contexto de negocio compartido. **Es público en GitHub** — nunca escribir aquí
-datos de contacto de prospectos reales, credenciales, tokens ni IDs sensibles.
+El meta-repo `Studio32` (`github.com/tsmluky/Studio32`) es este mismo, el que contiene
+`reportes/` y `notes/` — ojo, que su carpeta local puede llamarse distinto según la
+máquina. Es donde vive el contexto de negocio compartido, y **es público en GitHub**:
+nunca escribir aquí datos de contacto de prospectos reales, credenciales, tokens ni
+IDs sensibles.
 
 ---
 
 ## Cómo está el trabajo activo ahora mismo
 
-**Fuente de verdad siempre actualizada, léela en este orden:**
+**Fuente de verdad siempre actualizada, léela en este orden** (rutas relativas a la
+raíz de cada repo, porque la ruta del repo en disco cambia según la máquina):
 
-1. `reportes/ESTADO.md` (este repo) — la foto de negocio: qué está hecho, qué falta,
-   qué bloquea. Escrito para personas, no técnico.
-2. `repos/studio32/studio32-hub/.ai/STATE.md` — el detalle técnico de la prospección
+1. `reportes/ESTADO.md`, en el repo **Studio32** (este mismo) — la foto de negocio:
+   qué está hecho, qué falta, qué bloquea. Escrito para personas, no técnico.
+2. `.ai/STATE.md`, en el repo **studio32-hub** — el detalle técnico de la prospección
    y del Hub: qué está probado, qué convenciones no se rompen, qué queda a medias.
-3. `repos/studio32/studio32-hub/.ai/DECISIONS.md` — el porqué de cada decisión no
+3. `.ai/DECISIONS.md`, en el repo **studio32-hub** — el porqué de cada decisión no
    obvia, si necesitas entender por qué algo se hizo así y no de otra forma.
 
 En síntesis, a fecha de este traspaso:
@@ -128,12 +139,26 @@ En síntesis, a fecha de este traspaso:
   número en WhatsApp Business y conectar el Google Calendar del cliente. Ninguno de
   los dos es trabajo de código.
 
-**Cabo suelto a revisar, no mío:** en `repos/studio32/studio32-panel` hay cambios sin
-commitear (`src/styles.css` modificado, un `scripts/migrar-paleta.mjs` y un
-`src/styles.paleta-verde.css` nuevos, ninguno de los dos añadido a git). Parece un
-experimento de paleta de color a medio hacer. No lo he tocado porque no sé si es
-intencional o quedó abandonado — pregúntale a Pancho antes de comitearlo o
-descartarlo.
+**Antes de trabajar en el Hub, comprueba en qué rama estás.** En `studio32-hub` la
+rama buena es **`main`, siempre**. Hay dos ramas remotas viejas que despistan porque
+sus nombres suenan a trabajo activo:
+
+- `feat/prospeccion-email`
+- `merge/prospeccion-unificada`
+
+**Las dos están enteramente fusionadas en `main`** (comprobado el 15/08/2026: cero
+commits exclusivos en cualquiera de ellas). Son restos de la unificación del 11/08 que
+nadie borró. Si te encuentras con el checkout en una de ellas, no hay nada que
+rescatar: `git checkout main && git pull --rebase` y a trabajar. Todo lo que describe
+este documento —prospección unificada, envío por Hostinger, la renovación visual del
+13/08— vive en `main`.
+
+**Cabo suelto a revisar, no mío:** en el repo **studio32-panel** hay cambios sin
+commitear (`src/styles.css` modificado, y `scripts/migrar-paleta.mjs` y
+`src/styles.paleta-verde.css` nuevos y sin añadir a git). Parece un experimento de
+paleta de color a medio hacer, y estaba así en el portátil a fecha del traspaso. No lo
+he tocado porque no sé si es intencional o quedó abandonado — pregúntale a Pancho antes
+de comitearlo o descartarlo.
 
 ---
 
