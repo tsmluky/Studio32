@@ -1,8 +1,38 @@
 # Estado actual · Agente de IA (foco: GH Dent)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 12/08/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 13/08/2026.
 
-## 🆕 Sesión 12/08 · hay cuatro correos esperando visto bueno
+## 🆕 Sesión 13/08 · el Hub ya se ve y se usa como un sitio terminado
+
+El Hub funcionaba bien pero se veía a medias: mucho blanco, letras pequeñas y una
+navegación que se hacía un lío en pantallas de tamaño intermedio. Se ha renovado el
+aspecto entero — fondo cálido, verde de Studio32, tarjetas con algo de relieve, texto
+más grande — y se ha reordenado cómo se revisan los correos de prospección.
+
+**Lo que se nota al abrirlo:**
+
+- **La cola de correos ya no confunde.** Antes, un correo descartado seguía contando
+  en el número de "pendientes" de la portada aunque ya no apareciera en la lista de
+  Prospección — el aviso decía uno y la pantalla enseñaba otro. Ahora los dos cuentan
+  lo mismo.
+- **Las campañas ya probadas (Torrejón, Alcalá, Valencia…) no ensucian la vista.**
+  Quedan aparte, en un grupo de pruebas, y la lista principal solo enseña campañas
+  reales con trabajo pendiente de verdad.
+- **La revisión se organiza por lo que hay que decidir**, no por cómo está guardado
+  por dentro: por revisar, listos para enviar, o ya enviados — y aparte, un filtro para
+  los que tienen poca evidencia detrás y conviene mirar con más calma.
+- **El móvil ya no amontona ocho botones en la barra de abajo.** Quedan los cinco que
+  se usan cada día; el resto vive en un menú "Más" con su explicación.
+
+No hay nada nuevo que aprender ni ningún dato que revisar de más: es la misma
+información, mejor puesta. Sigue habiendo cuatro correos de fisioterapia esperando
+aprobación de la sesión del 12/08.
+
+**Y sigue parado lo de siempre:** GH Dent, con Meta y el Google Calendar. Esto es
+pulido de la herramienta de captación, no producto — el reloj del primer cliente no
+se ha movido.
+
+## Sesión 12/08 · hay cuatro correos esperando visto bueno
 
 Detalle completo: `reportes/2026-08-12.md`.
 
