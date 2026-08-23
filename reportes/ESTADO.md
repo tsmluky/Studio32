@@ -1,8 +1,31 @@
 # Estado actual · Agente de IA (foco: GH Dent)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 13/08/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 23/08/2026.
 
-## 🆕 Sesión 13/08 · el Hub ya se ve y se usa como un sitio terminado
+## 🆕 Sesión 23/08 · cinco correos más esperando visto bueno, y una fuente nueva
+
+Detalle completo: `reportes/2026-08-23.md`.
+
+De una campaña pedida desde el Hub —fisioterapia en Torre del Mar— han salido **cinco
+correos escritos y en borrador**: Clínica Fisiomar, ACOSTA, Axarclinic, Clínica Valenzuela
+y Fisioesmile. Cada uno se apoya en algo que solo le pasa a ese centro, con la cita
+literal debajo.
+
+**Lo que hace falta de nosotros: entrar en el Hub, leerlos y aprobar los que convenzan.**
+
+Se pidieron 25 y hay 5, y esta vez el motivo no es el tiempo: **Torre del Mar tiene once
+centros de fisioterapia en total.** Quedan dos por mirar y de ahí no salen más de dos
+leads. Si hace falta ese volumen, hay que pedir otra campaña en Vélez-Málaga.
+
+**Lo que más va a servir a futuro:** hemos encontrado una fuente que copia las reseñas de
+Google enteras, con nombre y fecha, para negocios que no están en Doctoralia. Hasta hoy
+esos negocios se descartaban. Cuatro de los cinco correos existen gracias a eso, y queda
+anotado en la documentación del Hub.
+
+**Y sigue parado lo de siempre:** GH Dent, con Meta y el Google Calendar. Esto es
+captación, no producto — el reloj del primer cliente no se ha movido.
+
+## Sesión 13/08 · el Hub ya se ve y se usa como un sitio terminado
 
 El Hub funcionaba bien pero se veía a medias: mucho blanco, letras pequeñas y una
 navegación que se hacía un lío en pantallas de tamaño intermedio. Se ha renovado el
