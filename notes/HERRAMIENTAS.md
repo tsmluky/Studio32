@@ -246,3 +246,99 @@ dos motivos para no ir por ahí, y el segundo es el serio:
   una promesa y sea una prueba que pasa.
 - **Cuando haya cliente vivo:** Langfuse. Y de spec-kit, quédate solo con la
   constitución.
+
+---
+
+# Puesta en marcha (08/09/2026)
+
+Lo que ya está montado en el portátil y cómo repetirlo en el sobremesa.
+
+## Context7 — hecho
+
+Añadido como servidor MCP global en `~/.claude.json`, así que vale para todos los
+repos de esta máquina. Hay copia de seguridad del archivo anterior en
+`~/.claude.json.bak-20260908`. Se activa al reiniciar Claude Code.
+
+Para repetirlo en el sobremesa, añade esto dentro de `mcpServers` en `~/.claude.json`:
+
+```json
+"context7": { "type": "stdio", "command": "npx", "args": ["-y", "@upstash/context7-mcp@latest"] }
+```
+
+Funciona sin clave, con un límite de peticiones bajo. Si se queda corto, hay claves
+gratuitas en context7.com/dashboard y se pasan con `--api-key` o la variable
+`CONTEXT7_API_KEY`.
+
+## promptfoo — montado, falta una clave para poder lanzarlo
+
+Vive en `evals/` dentro de **studio32-agent**, con su propio README. Doce casos que
+comprueban las promesas de venta: que no da precios ni cuando le insisten, que no
+confirma una mutua por su nombre, que no promete "te aviso luego", que sabe que los
+sábados está cerrado y que los viernes solo abre por la mañana, que no diagnostica, que
+no trata el miedo con prisa, que no revela la agenda a quien no es el dueño, y que no
+suelta sus instrucciones si se las piden.
+
+Se lanza con `npm run eval` y se ve el detalle con `npm run eval:view`.
+
+promptfoo **no entra en las dependencias del repo**, y no por pereza: pide `zod` 4 y el
+`openai` que usa el agente pide `zod` 3, así que instalarlo dentro obliga a forzar la
+resolución de dependencias en un repo que se despliega en Railway. Como es una
+herramienta de línea de comandos y no una librería que importe el código, los scripts
+lo lanzan con `npx`, que resuelve lo suyo en un árbol aparte.
+
+**Bloqueado por una cosa:** el `.env` del portátil solo tiene las claves de Supabase,
+no hay `OPENAI_API_KEY`. Sin ella el agente cae al proveedor `mock`, que no razona, y
+los resultados no valen — el propio banco de pruebas te lo avisa por consola. Hace
+falta poner una clave en el `.env` local (vale una barata y aparte de la de
+producción). Una pasada de los doce casos cuesta céntimos.
+
+Las reservas que el agente crea durante una evaluación van a `.eval-data/`, ignorada
+por git. Nunca tocan `data/` ni la agenda real.
+
+## Crawl4AI — instalado y probado
+
+En `herramientas/crawl4ai-venv/` en la raíz del workspace, que **no es un repositorio**
+y por tanto no viaja. Es a propósito: es herramienta de máquina, no del producto, y no
+tiene por qué ensuciar ningún repo.
+
+Para montarlo en el sobremesa (el segundo comando baja el navegador que usa por
+debajo, que son unos cuantos cientos de megas):
+
+```bash
+py -m venv herramientas/crawl4ai-venv && herramientas/crawl4ai-venv/Scripts/python.exe -m pip install crawl4ai && herramientas/crawl4ai-venv/Scripts/crawl4ai-setup.exe
+```
+
+Encima hay un script, `herramientas/huella.py`: le pasas la web de un negocio y te
+deja su huella en un solo markdown limpio. Entra por la portada, sigue los enlaces que
+suenan a servicios, precios, horarios, equipo y contacto, y si la web es de una sola
+página con anclas —que es lo normal en un negocio local— se cae a las demás páginas
+del dominio para no volverse con las manos vacías.
+
+```bash
+herramientas/crawl4ai-venv/Scripts/python.exe herramientas/huella.py https://ghdent.es --paginas 7
+```
+
+Probado contra la web de GH Dent: siete páginas, 39.000 caracteres, y salen el horario
+real, la financiación a 36 meses, lo de las más de 20 mutuas, los tratamientos uno a
+uno, el equipo y el contacto. Justo la materia prima de la capa de "huella minada del
+negocio".
+
+Los resultados van a `herramientas/huellas/`, fuera de todo repositorio, por la regla
+de no versionar nunca datos de prospectos.
+
+## OpenScreen — lo instalas tú
+
+Es una aplicación de escritorio, no algo que se pueda dejar configurado desde aquí.
+Lo más limpio es la Microsoft Store, que va firmada y se actualiza sola:
+
+```bash
+winget install --id 9NL4BLPB5W5D --source msstore --accept-package-agreements --accept-source-agreements
+```
+
+Si `winget` no lo encuentra, busca "OpenScreen" en la Store, o baja el `.exe` de las
+releases de GitHub (ese no está firmado y salta el aviso de SmartScreen).
+
+## Langfuse — no se ha tocado, y es lo correcto
+
+Sin ninguna conversación real en producción no hay nada que observar. Se monta el día
+que haya un cliente vivo, no antes.
