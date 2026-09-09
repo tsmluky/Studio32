@@ -35,7 +35,15 @@ Es media sesión y quita ruido de encima. Nada de esto es construir.
 
 ---
 
-## Carril 1 · Que el producto aguante (aquí es donde estamos verdes)
+## Carril 1 · Que el producto aguante
+
+> **Al día 09/09:** hechas las capas 1, 2 y 3. Queda la 4, la vigilancia.
+> `npm run eval` (15 casos de criterio), `npm run test:agent` y `test:agent:prod`
+> (7 casos de conversación real, verde en local y en producción), `npm test`
+> (26 unitarias) y `/health`. Los tres fallos que encontró el smoke el primer día
+> están arreglados y con prueba propia.
+
+
 
 **El diagnóstico honesto:** `package.json` declara cuatro comandos de prueba
 —`test:agent`, `test:qa`, `test:sec`, `test:llm`— que apuntan a archivos que **no

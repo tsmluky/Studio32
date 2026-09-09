@@ -14,6 +14,18 @@ tener la SIM a mano— por delante de cualquier material de venta.
 Detalle de la sesión: `reportes/2026-09-09.md`. Sesión anterior, de herramientas:
 `reportes/2026-09-08.md`.
 
+## ✅ El agente ya se comprueba solo (09/09)
+
+Antes, la confianza en que el agente funciona venía de probarlo a mano de vez en cuando.
+Ahora hay una prueba que mantiene una conversación completa —reservar, mover, cancelar,
+día cerrado, intentar sonsacarle datos de otros— y verifica la agenda de verdad. Siete
+de siete, tanto en el ordenador como en lo que está publicado.
+
+El primer día encontró tres fallos serios, ya arreglados: el agente **confirmaba citas
+que no había creado**, cualquiera podía **cancelar la cita de otra persona** dando su
+teléfono, y en la demo de la web dos visitantes se pisaban. Detalle en
+`reportes/2026-09-09.md`.
+
 ## 🚨 Lo único urgente: hay 32 correos escritos y ninguno enviado
 
 La bandeja de Prospección del Hub tiene **32 correos por revisar y cero aprobados**.
