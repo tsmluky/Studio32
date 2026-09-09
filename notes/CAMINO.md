@@ -37,44 +37,40 @@ Es media sesión y quita ruido de encima. Nada de esto es construir.
 
 ## Carril 1 · Que el producto aguante
 
-> **Al día 09/09:** hechas las capas 1, 2 y 3. Queda la 4, la vigilancia.
-> `npm run eval` (15 casos de criterio), `npm run test:agent` y `test:agent:prod`
-> (7 casos de conversación real, verde en local y en producción), `npm test`
-> (26 unitarias) y `/health`. Los tres fallos que encontró el smoke el primer día
-> están arreglados y con prueba propia.
-
-
-
-**El diagnóstico honesto:** `package.json` declara cuatro comandos de prueba
-—`test:agent`, `test:qa`, `test:sec`, `test:llm`— que apuntan a archivos que **no
-existen y nunca existieron** en el repo. El famoso smoke test del agente es una entrada
-en un JSON. Lo que sí corre son tres tests de `test/` (adaptador de Supabase y permisos
-de la API), `npm run check`, y los evals de ayer.
+**Hechas las tres primeras capas el 09/09. Queda la cuarta.**
 
 Cuatro capas, de dentro hacia fuera. Cada una responde a una pregunta distinta:
 
-**1. ¿Tiene criterio?** → `evals/` con promptfoo. Ya existe, con doce casos.
-Problema: están escritos contra `gh-dent`, que ya no es cliente y ya no está en el
-repo. Hay que reapuntarlos a los arquetipos por vertical (dental, restaurante,
-servicios, barbería, estética) — ocho o diez casos cada uno, sacados de las promesas que
-hace su propio `policies.md`. Esto es lo que convierte "no inventa" en algo que se
-comprueba, y es lo que se enseña en una visita.
+**1. ¿Tiene criterio?** → HECHO. `npm run eval`: quince casos contra el arquetipo
+dental versionado (antes iban contra el tenant de un cliente que ya no está, así que
+solo funcionaban en una máquina). Estable en tres pasadas seguidas. Comprueba que no
+da precios que no tiene y sí da los que sí, que no confirma mutuas, que conoce su
+horario, que no diagnostica, que no se cree a quien dice ser la dueña.
 
-**2. ¿Funciona la fontanería?** → El smoke que no existe. Reservar, cancelar, mover,
-pedir hora fuera de horario, hacerse pasar por el dueño. Se escribe de verdad o se
-borran los comandos fantasma, pero no se deja el `package.json` mintiendo.
+**2. ¿Funciona la fontanería?** → HECHO. `npm run test:agent` existe de verdad: siete
+casos que mantienen una conversación completa y comprueban **la agenda**, no las
+frases. Los cuatro comandos fantasma del `package.json` se han quitado.
 
-**3. ¿Funciona *lo desplegado*?** → Hoy nadie comprueba que lo que hay en Railway
-responde. Se prueba en local y se cruzan los dedos. El mismo guion del punto 2, contra
-producción, después de cada despliegue.
+**3. ¿Funciona *lo desplegado*?** → HECHO. `npm run test:agent:prod` pasa el mismo
+guion contra Railway, y `/health` dice con qué modelo corre, cuántos tenants ve y si
+el volumen se puede escribir. Siete de siete en producción.
 
-**4. ¿Nos enteramos antes que el cliente?** → No hay nada. Si el agente deja de
-responder un domingo por la tarde, lo descubre el paciente que quería cita. Hace falta
-un chequeo diario que avise si el agente no contesta, si el volumen no está montado o si
-el correo de avisos falla. No es Langfuse todavía: es un aviso que le llega a alguien.
+**4. ¿Nos enteramos antes que el cliente?** → PENDIENTE. `/health` existe pero nadie
+lo mira. Si el agente deja de responder un domingo por la tarde, lo sigue descubriendo
+el paciente que quería cita. Hace falta algo que lo consulte cada X minutos y avise a
+una persona.
+
+**Lo que encontró el carril nada más existir** (los tres arreglados, con prueba propia
+para que no vuelvan):
+
+- El agente **confirmaba citas que no había creado**. "Listo, ya tienes tu cita el
+  jueves a las 09:30", agenda vacía. Ahora hay un guard en código: si lo dice, tiene
+  que existir, y a esa hora.
+- **Cualquiera podía cancelar la cita de otro** dando su teléfono por chat.
+- En la demo pública, **dos visitantes con el mismo teléfono se pisaban**.
 
 **Cómo se sabe que este carril está hecho:** se puede desplegar un viernes por la tarde
-sin miedo.
+sin miedo. Falta la capa 4 para poder decirlo del todo.
 
 ---
 
