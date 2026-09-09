@@ -37,7 +37,7 @@ Es media sesión y quita ruido de encima. Nada de esto es construir.
 
 ## Carril 1 · Que el producto aguante
 
-**Hechas las tres primeras capas el 09/09. Queda la cuarta.**
+**Las cuatro capas, hechas el 09/09.**
 
 Cuatro capas, de dentro hacia fuera. Cada una responde a una pregunta distinta:
 
@@ -55,10 +55,11 @@ frases. Los cuatro comandos fantasma del `package.json` se han quitado.
 guion contra Railway, y `/health` dice con qué modelo corre, cuántos tenants ve y si
 el volumen se puede escribir. Siete de siete en producción.
 
-**4. ¿Nos enteramos antes que el cliente?** → PENDIENTE. `/health` existe pero nadie
-lo mira. Si el agente deja de responder un domingo por la tarde, lo sigue descubriendo
-el paciente que quería cita. Hace falta algo que lo consulte cada X minutos y avise a
-una persona.
+**4. ¿Nos enteramos antes que el cliente?** → HECHO. `npm run vigilar` corre en GitHub
+cada media hora: mira que el agente esté vivo con el disco montado y que conteste sin
+rendirse. Si falla, GitHub manda un correo. Sin servidor nuevo, sin secretos y con el
+histórico de ejecuciones como registro de disponibilidad — que es lo que habrá que
+enseñar el día que un cliente pregunte "¿y esto se cae?".
 
 **Lo que encontró el carril nada más existir** (los tres arreglados, con prueba propia
 para que no vuelvan):
@@ -70,7 +71,10 @@ para que no vuelvan):
 - En la demo pública, **dos visitantes con el mismo teléfono se pisaban**.
 
 **Cómo se sabe que este carril está hecho:** se puede desplegar un viernes por la tarde
-sin miedo. Falta la capa 4 para poder decirlo del todo.
+sin miedo. Ya se puede decir.
+
+Lo que queda de este carril no es construir, es hábito: pasar `npm test`, `npm run eval`
+y `npm run test:agent:prod` antes de dar por buena una sesión que toque el agente.
 
 ---
 
