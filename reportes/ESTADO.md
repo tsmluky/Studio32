@@ -1,29 +1,56 @@
-# Estado actual · Agente de IA (foco: GH Dent)
+# Estado actual · Agente de IA (foco: conseguir el primer cliente)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 23/08/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 09/09/2026.
 
-## 🆕 Sesión 23/08 · cinco correos más esperando visto bueno, y una fuente nueva
+## 🧭 Hay un plan escrito: `notes/CAMINO.md`
 
-Detalle completo: `reportes/2026-08-23.md`.
+Desde el 09/09 el orden de trabajo no se improvisa por sesión. Tres decisiones:
+**el agente primero y la carta por QR en paralelo**, **se sale a ofrecer en persona**, y
+por encima de todo **no se vende lo que no se puede entregar en una semana**.
 
-De una campaña pedida desde el Hub —fisioterapia en Torre del Mar— han salido **cinco
-correos escritos y en borrador**: Clínica Fisiomar, ACOSTA, Axarclinic, Clínica Valenzuela
-y Fisioesmile. Cada uno se apoya en algo que solo le pasa a ese centro, con la cita
-literal debajo.
+Eso último pone la verificación del número en Meta —parada desde julio, pendiente de
+tener la SIM a mano— por delante de cualquier material de venta.
 
-**Lo que hace falta de nosotros: entrar en el Hub, leerlos y aprobar los que convenzan.**
+Detalle de la sesión: `reportes/2026-09-09.md`. Sesión anterior, de herramientas:
+`reportes/2026-09-08.md`.
 
-Se pidieron 25 y hay 5, y esta vez el motivo no es el tiempo: **Torre del Mar tiene once
-centros de fisioterapia en total.** Quedan dos por mirar y de ahí no salen más de dos
-leads. Si hace falta ese volumen, hay que pedir otra campaña en Vélez-Málaga.
+## 🚨 Lo único urgente: hay 32 correos escritos y ninguno enviado
 
-**Lo que más va a servir a futuro:** hemos encontrado una fuente que copia las reseñas de
-Google enteras, con nombre y fecha, para negocios que no están en Doctoralia. Hasta hoy
-esos negocios se descartaban. Cuatro de los cinco correos existen gracias a eso, y queda
-anotado en la documentación del Hub.
+La bandeja de Prospección del Hub tiene **32 correos por revisar y cero aprobados**.
+Dieciséis son del 04/09; los otros dieciséis llevan ahí desde mediados de agosto.
 
-**Y sigue parado lo de siempre:** GH Dent, con Meta y el Google Calendar. Esto es
-captación, no producto — el reloj del primer cliente no se ha movido.
+Escribir más correos no mueve el reloj. **Entrar en el Hub, leerlos y aprobar los que
+convenzan, sí.** Es la única tarea que separa a Studio32 de tener una conversación
+con alguien.
+
+## 🆕 Sesión 04/09 · siete ciudades nuevas
+
+Detalle completo: `reportes/2026-09-04.md`.
+
+Ocho campañas nuevas de clínicas dentales (Málaga, Valencia, Sevilla, Zaragoza, Murcia,
+Alicante, Granada, Valladolid) y **dieciséis leads nuevos con el correo escrito**. Solo
+queda pendiente Alicante, donde la zona no daba para una tanda decente.
+
+El ángulo que ha funcionado no es la web: es **el horario**. Clínicas con cuatro o cinco
+horarios distintos en la misma semana, huecos de tres horas al mediodía, cerradas de
+viernes a domingo. Es un dato verificable y lleva directo a la pregunta que interesa:
+quién coge el teléfono cuando no hay nadie.
+
+## GH Dent ya no existe
+
+Se les envió el presupuesto y nunca respondieron. **Studio32 está sin ningún cliente.**
+No perseguir ese hilo ni tratarlo como cliente activo. Lo que quedaba a medias con Meta y
+Google Calendar deja de ser un bloqueo: no hay nadie esperando al otro lado.
+
+## Sesión 23/08 · fisioterapia en Torre del Mar, y una fuente nueva de reseñas
+
+Detalle completo: `reportes/2026-08-23.md`. De ahí salieron cinco de los correos que
+siguen sin aprobar (Fisiomar, ACOSTA, Axarclinic, Valenzuela, Fisioesmile).
+
+**Lo que sigue sirviendo:** se encontró una fuente que copia las reseñas de Google
+enteras, con nombre y fecha, para negocios que no están en Doctoralia. Hasta entonces
+esos negocios se descartaban por no poder citar a nadie. Queda anotado en la
+documentación del Hub.
 
 ## Sesión 13/08 · el Hub ya se ve y se usa como un sitio terminado
 
