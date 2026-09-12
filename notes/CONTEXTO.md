@@ -61,10 +61,23 @@ literalmente config).
 Cualquier avance en Prospección (captación) se permite en paralelo porque es lo que
 trae a ese primer cliente, no porque la congelación se haya levantado.
 
-**El cliente piloto es GH Dent** (clínica dental, Guadalajara), demo Cobalto ya hecha
-y bien recibida. Lo que falta para cerrar y cobrar, sin ser código: verificar el
-número en WhatsApp Business (Meta) y conectar el Google Calendar del cliente. Detalle
-completo y siempre al día en `reportes/ESTADO.md`, en este mismo repo.
+**No hay ningún cliente. Cero.** GH Dent (clínica dental, Guadalajara) fue el piloto
+hasta el 09/09/2026: se le envió el presupuesto y **nunca respondió**. No lo trates
+como cliente activo ni persigas ese hilo. Su tenant sigue en disco pero fuera del
+control de versiones, y sus dos bloqueadores de siempre —verificar el número en Meta y
+conectar su Google Calendar— dejaron de ser bloqueadores de *ese* cliente; siguen
+siéndolo de cualquier go-live, que es distinto.
+
+**El piloto hoy es `clinica-cobalto`**, y es un tenant ficticio a propósito: clínica
+dental sintética (teléfonos `+3460000001x`, sin credenciales reales) que sirve para
+ensayar el flujo entero —WhatsApp, panel, agenda— sin tocar datos de nadie. Todo el
+desarrollo hecho para GH Dent se sigue usando aquí: el arquetipo dental es el mismo.
+Se siembra con `supabase/seed-demo-cobalto.sql` en `studio32-agent` (idempotente, con
+la agenda relativa a hoy para que no caduque), y **reejecutarlo antes de una demo**
+borra el rastro de los ensayos y recoloca la agenda en el día. Es también el tenant
+contra el que corren las pruebas de criterio (`npm run eval`).
+
+Detalle completo y siempre al día en `reportes/ESTADO.md`, en este mismo repo.
 
 **Competencia a tener en cuenta, sin nombrarla en ningún material:** Meta lanzó un
 agente nativo de WhatsApp gratis (más de 1M de negocios ya lo usan). Decisión tomada:
@@ -132,12 +145,17 @@ En síntesis, a fecha de este traspaso:
   lista, campañas de prueba ya agotadas ensuciando la vista). Ver la entrada del 13/08
   en `reportes/ESTADO.md` para el resumen en llano, o `DECISIONS.md` del hub para el
   porqué técnico.
-- **Hay cuatro correos de fisioterapia (Guadalajara) esperando aprobación** en el Hub
-  desde el 12/08, y la campaña sigue abierta con seis leads más por generar en otra
-  pasada.
-- **GH Dent sigue parado** en los mismos dos bloqueadores de siempre: verificar el
-  número en WhatsApp Business y conectar el Google Calendar del cliente. Ninguno de
-  los dos es trabajo de código.
+- **Hay 40 correos esperando aprobación** en el Hub, de campañas de dental, fisio y
+  estética en una decena de ciudades. El 12/09 se corrigieron 29 que diagnosticaban
+  bien y no decían con qué se resolvía el problema; la plantilla ya lo exige. Ver
+  `reportes/2026-09-12.md`.
+- **Los dos bloqueadores de cualquier go-live siguen abiertos**, y ya no son de un
+  cliente concreto sino del producto: el número **`+34 694 29 31 66` sigue en
+  "Pendiente" en Meta** desde julio (nunca completó el OTP, hace falta la SIM a mano)
+  y **Google Calendar no está montado de verdad** — no existe la cuenta técnica, no
+  hay `GOOGLE_CREDENTIALS_JSON` en Railway ni `calendar.calendar_id`. Ninguno de los
+  dos es trabajo de código, y hasta que estén, *no se puede entregar* lo que se
+  venda. Es la regla que manda en `notes/CAMINO.md`.
 
 **Antes de trabajar en el Hub, comprueba en qué rama estás.** En `studio32-hub` la
 rama buena es **`main`, siempre**. Hay dos ramas remotas viejas que despistan porque
