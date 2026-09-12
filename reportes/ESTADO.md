@@ -1,6 +1,6 @@
 # Estado actual · Agente de IA (foco: conseguir el primer cliente)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 09/09/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 12/09/2026.
 
 ## 🧭 Hay un plan escrito: `notes/CAMINO.md`
 
@@ -26,10 +26,13 @@ que no había creado**, cualquiera podía **cancelar la cita de otra persona** d
 teléfono, y en la demo de la web dos visitantes se pisaban. Detalle en
 `reportes/2026-09-09.md`.
 
-## 🚨 Lo único urgente: hay 32 correos escritos y ninguno enviado
+## 🚨 Lo único urgente: hay 40 correos escritos y ninguno enviado
 
-La bandeja de Prospección del Hub tiene **32 correos por revisar y cero aprobados**.
-Dieciséis son del 04/09; los otros dieciséis llevan ahí desde mediados de agosto.
+La bandeja de Prospección del Hub tiene **40 correos por revisar y cero aprobados**.
+
+**El 12/09 se han corregido 29 de los 40**: diagnosticaban bien el problema del negocio
+y nunca decían con qué se resolvía, así que terminaban en un cierre vago en vez de una
+oferta. Detalle en `reportes/2026-09-12.md`. Ya se pueden leer y aprobar con confianza.
 
 Escribir más correos no mueve el reloj. **Entrar en el Hub, leerlos y aprobar los que
 convenzan, sí.** Es la única tarea que separa a Studio32 de tener una conversación
