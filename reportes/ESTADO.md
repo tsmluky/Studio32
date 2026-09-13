@@ -1,6 +1,6 @@
 # Estado actual · Agente de IA (foco: conseguir el primer cliente)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 12/09/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 13/09/2026.
 
 ## 🧭 Hay un plan escrito: `notes/CAMINO.md`
 
@@ -26,9 +26,17 @@ que no había creado**, cualquiera podía **cancelar la cita de otra persona** d
 teléfono, y en la demo de la web dos visitantes se pisaban. Detalle en
 `reportes/2026-09-09.md`.
 
-## 🚨 Lo único urgente: hay 40 correos escritos y ninguno enviado
+## 🚨 Lo único urgente: hay 40 correos escritos esperando aprobación
 
-La bandeja de Prospección del Hub tiene **40 correos por revisar y cero aprobados**.
+La bandeja de Prospección del Hub tiene **40 correos por revisar**. Once llevan escritos
+desde el 16/08.
+
+**Ojo, que esto se había contado mal:** en agosto sí salieron correos. Entre el 12 y el
+23/08 se enviaron **19 a negocios reales** (18 desde francisco@ y 1 desde gonzalo@),
+más uno de prueba: fisioterapia en Guadalajara, clínicas dentales en Valencia y
+Barcelona, y estética en Valencia. Nadie ha pedido la baja. Las respuestas no llegan al
+Hub, llegan al buzón de quien firmó, así que hay que mirarlas allí. Comprobado contra la
+base de datos del Hub el 13/09.
 
 **El 12/09 se han corregido 29 de los 40**: diagnosticaban bien el problema del negocio
 y nunca decían con qué se resolvía, así que terminaban en un cierre vago en vez de una
