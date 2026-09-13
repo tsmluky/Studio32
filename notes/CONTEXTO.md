@@ -171,12 +171,13 @@ rescatar: `git checkout main && git pull --rebase` y a trabajar. Todo lo que des
 este documento —prospección unificada, envío por Hostinger, la renovación visual del
 13/08— vive en `main`.
 
-**Cabo suelto a revisar, no mío:** en el repo **studio32-panel** hay cambios sin
-commitear (`src/styles.css` modificado, y `scripts/migrar-paleta.mjs` y
-`src/styles.paleta-verde.css` nuevos y sin añadir a git). Parece un experimento de
-paleta de color a medio hacer, y estaba así en el portátil a fecha del traspaso. No lo
-he tocado porque no sé si es intencional o quedó abandonado — pregúntale a Pancho antes
-de comitearlo o descartarlo.
+**Cambios estéticos, solo en bloque.** El 13/09 se descartó un experimento a medio
+hacer en **studio32-panel** que pasaba el panel del verde al bronce cálido de la web.
+No era mala idea, pero Pancho decidió que cualquier mejora visual o de experiencia se
+hace **a la vez en todas las herramientas** (web, Hub, panel), nunca en una sola, y no
+antes de que haya un cliente. Si alguien lo retoma, la regla que sí vale la pena
+conservar: verde, ámbar y rojo indican estado (correcto, atención, error) y no se
+tocan al cambiar el color de marca.
 
 ---
 

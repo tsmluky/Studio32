@@ -170,6 +170,9 @@ Escrito aquí para poder decir que no señalando un archivo:
 Remotion, Langfuse, Chatwoot, el flujo completo de spec-kit, RestaurantOS, verticales
 nuevas del agente, y cualquier función nueva del Hub que no sea aprobar correos.
 
+Tampoco retoques visuales sueltos en una sola herramienta. Cuando toque mejorar la
+interfaz, se hace de una vez para la web, el Hub y el panel (decidido el 13/09).
+
 De spec-kit se roba una sola cosa: **la constitución**. Un archivo corto de reglas que no
 se saltan, y la primera es esta línea.
 
