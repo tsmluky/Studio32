@@ -84,9 +84,11 @@ y `npm run test:agent:prod` antes de dar por buena una sesión que toque el agen
   verificación por OTP y hace falta la SIM a mano. La verificación de empresa sigue "en
   revisión". Hay que cerrar el circuito entero con **nuestro propio número** antes de
   prometérselo a nadie, y dejar escrito cuánto se tarda de verdad.
-- **Google Calendar.** No existe la cuenta técnica. El plan ya está acordado (un
-  calendario por cliente, creado por Studio32, invitación al negocio). Falta hacerlo una
-  vez, de principio a fin, con un calendario de prueba.
+- ~~**Google Calendar.**~~ → **HECHO el 14/09.** Probado de principio a fin con un
+  calendario de prueba: reservar, mover y cancelar se ven de verdad en Google. Falta
+  ponerlo en Railway (hoy solo está en local) y, con el primer cliente real, crear SU
+  calendario siguiendo el mismo plan. Detalle en `studio32-agent/.ai/DECISIONS.md`,
+  14/09.
 - **Los avisos al correo del cliente**, que hoy van a Studio32 a propósito.
 - **Precio, contrato y cobro.** La web no publica cifra a propósito, y para correo está
   bien. Para puerta a puerta no: hace falta una horquilla que se pueda decir en voz alta
