@@ -1,6 +1,13 @@
 # Estado actual · Agente de IA (foco: conseguir el primer cliente)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 13/09/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 14/09/2026.
+
+## 📬 Desde el 14/09 se envía a diario, con cupo
+
+Decidido con Juanma: más correos, pero **cada día y no a golpes**. 10 al día esta semana,
+20 la siguiente y 30 desde la tercera. El Hub ya no deja pasar del cupo del día; lo que no
+cabe sigue aprobado y sale mañana. Los motivos, explicados para el equipo, en
+`reportes/2026-09-14.md`. Pendiente: dominio aparte para prospección antes de llegar a 30.
 
 ## 🧭 Hay un plan escrito: `notes/CAMINO.md`
 
