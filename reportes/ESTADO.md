@@ -9,6 +9,11 @@ Decidido con Juanma: más correos, pero **cada día y no a golpes**. 10 al día 
 cabe sigue aprobado y sale mañana. Los motivos, explicados para el equipo, en
 `reportes/2026-09-14.md`. Pendiente: dominio aparte para prospección antes de llegar a 30.
 
+Además, **envío automático de lo aprobado** (interruptor en el Hub, apagado de salida: de
+lunes a viernes, repartido en el día y se apaga solo si algo falla) y **`/prospectar` con
+tres campañas a la vez**. Aprobar sigue siendo de una persona, y es ahora el único paso
+que depende del equipo.
+
 ## 🧭 Hay un plan escrito: `notes/CAMINO.md`
 
 Desde el 09/09 el orden de trabajo no se improvisa por sesión. Tres decisiones:
