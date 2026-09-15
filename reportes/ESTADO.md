@@ -1,6 +1,14 @@
 # Estado actual · Agente de IA (foco: conseguir el primer cliente)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 14/09/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 15/09/2026.
+
+## ✉️ Los correos se presentan y dicen qué ofrecemos (15/09)
+
+Estructura propuesta por Juanma: "Hola, soy [quien aprueba], de Studio32", algo bueno y
+concreto del negocio, lo que falla, "es justo lo que montamos" y "¿Os enseño cómo
+funciona?". Nunca se prometen llamadas de teléfono, "ejemplo real" ni otros idiomas,
+porque no se pueden entregar. Los 63 borradores en cola ya están reescritos así.
+Detalle en `reportes/2026-09-15.md`.
 
 ## 📬 Desde el 14/09 se envía a diario, con cupo
 
