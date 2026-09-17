@@ -5,6 +5,30 @@
 > **La ruta entera, en una página que se va actualizando:**
 > https://claude.ai/artifact/NRjfm76oqA5cy7mDbx1xyu
 
+## ⚖️ Datos legales rellenados, y ya no queda nada bloqueando Google (17/09)
+
+El aviso legal y la política de privacidad llevaban desde agosto con el titular, el
+NIF y el domicilio como texto de ejemplo. Rellenados con **Juan Manuel Ruiz García**
+como titular, autónomo, con su NIF y su domicilio en Torre del Mar (el fuero judicial
+pasa de Valencia a Vélez-Málaga, que es el que corresponde de verdad). Se ha añadido
+también la sección que exige Google sobre qué se lee del calendario y para qué.
+
+**Comprobado y sin otras faltas legales:** la web no usa ningún analítico ni cookie de
+terceros (solo cookies técnicas), así que no hace falta página de cookies aparte.
+**Sí falta una que no existe todavía:** condiciones de contratación, para cuando haya
+cobro online. No urge hoy, pero hay que prepararla junto con eso, no después.
+
+**Un aviso:** el cambio está subido a GitHub pero, al comprobarlo, la web publicada
+(`studio32.pages.dev`) seguía sirviendo la versión vieja. A diferencia del panel, esta
+web no tiene un despliegue automático — alguien tiene que mirar en Cloudflare Pages si
+hace falta lanzarlo a mano.
+
+## 💶 Precio decidido: 190 €/mes + 300 € de alta (17/09)
+
+Queda por cerrar la promoción de los cinco primeros clientes: la recomendación es
+cobrar el alta reducida y regalar solo el primer mes de cuota, no todo gratis, para
+filtrar interés real y no fijar un precio de referencia de 0 €.
+
 ## 🗣️ El panel ya habla el idioma del dueño, no el nuestro (17/09)
 
 El panel le decía a un dueño de clínica cosas como "aislados mediante RLS" o
