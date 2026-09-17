@@ -1,6 +1,24 @@
 # Estado actual · Agente de IA (foco: conseguir el primer cliente)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 15/09/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 17/09/2026.
+>
+> **La ruta entera, en una página que se va actualizando:**
+> https://claude.ai/artifact/NRjfm76oqA5cy7mDbx1xyu
+
+## 📅 La agenda del cliente ya es de verdad la suya (14–17/09)
+
+El panel enseñaba **una copia**: solo las citas del asistente. Si la clínica apuntaba una
+cita en su móvil no aparecía, y **cancelar en el panel no la borraba de su Google**.
+
+Ahora el panel lee Google en directo, cancelar borra también allí, y **la clínica conecta
+su calendario con un botón** desde el panel, sin compartir nada a mano. Probado de punta a
+punta en producción. Detalle en `reportes/2026-09-17.md`.
+
+**Falta para poder dárselo a un cliente real:** Google tiene que revisar la aplicación
+(3–5 días laborables). Mientras tanto, el permiso caduca cada 7 días. Hoy se ha verificado
+el dominio y el agente ya tiene dirección propia (`api.studio32.es`); **bloquea** rellenar
+los datos del titular en la política de privacidad, que siguen siendo texto de ejemplo.
+Pasos y responsables en `notes/VERIFICACION-GOOGLE.md`.
 
 ## ✉️ Los correos se presentan y dicen qué ofrecemos (15/09)
 
@@ -186,10 +204,11 @@ primer correo salió de verdad. Ver la sección del 11/08 al final.
    disco permanente al servidor. Verificado: se reserva una cita, se actualiza el
    sistema, y la cita **sigue ahí**. Ya no hay riesgo de citar a dos pacientes a la
    misma hora por este motivo.
-2. **Google Calendar sin conectar.** No existe todavía la cuenta técnica de Google.
-   Plan acordado: el calendario lo crea Studio32 (uno por cliente) y se invita por
-   correo a la clínica, que solo tiene que aceptar.
-   ⚠️ **Antes hay que preguntar a la clínica dónde lleva su agenda hoy**: el agente
+2. ~~Google Calendar sin conectar~~ → **RESUELTO el 14–17/09.** La clínica conecta su
+   propio calendario desde el panel con un botón, y esa pasa a ser la agenda: el
+   asistente y el panel leen y escriben ahí. Queda pendiente la revisión de la
+   aplicación por parte de Google (ver arriba).
+   ⚠️ **Sigue valiendo preguntar a la clínica dónde lleva su agenda hoy**: el agente
    mira un único calendario, así que las citas que entren por teléfono tienen que
    estar ahí también, o habrá solapamientos.
 
