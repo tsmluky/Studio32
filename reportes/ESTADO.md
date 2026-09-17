@@ -5,6 +5,15 @@
 > **La ruta entera, en una página que se va actualizando:**
 > https://claude.ai/artifact/NRjfm76oqA5cy7mDbx1xyu
 
+## 🗣️ El panel ya habla el idioma del dueño, no el nuestro (17/09)
+
+El panel le decía a un dueño de clínica cosas como "aislados mediante RLS" o
+"Handoffs pendientes" — nombres de nuestra tecnología interna que no significan nada
+para él. Corregido: ahora explica en llano que sus datos están aislados de los de
+cualquier otro negocio, y "Asistente"/"Humano" se usa siempre igual. Las etiquetas de
+estado (citas, conversaciones) subieron de 8px, casi invisibles, a un tamaño que se lee
+en el móvil de una recepción. Comprobado con una sesión real, en móvil.
+
 ## 📅 La agenda del cliente ya es de verdad la suya (14–17/09)
 
 El panel enseñaba **una copia**: solo las citas del asistente. Si la clínica apuntaba una
