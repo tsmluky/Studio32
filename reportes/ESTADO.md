@@ -1,9 +1,27 @@
 # Estado actual · Agente de IA (foco: conseguir el primer cliente)
 
-> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 17/09/2026.
+> La foto de AHORA. Si lees una sola cosa, que sea esta. Última actualización: 22/09/2026.
 >
 > **La ruta entera, en una página que se va actualizando:**
 > https://claude.ai/artifact/NRjfm76oqA5cy7mDbx1xyu
+
+## 🔴 Se borró la base de datos por error, y se ha recompuesto (22/09)
+
+Anoche se borró sin querer el proyecto de Supabase que el 20/09 había pasado a
+guardarlo todo: el agente, el panel de clientes y el Hub recién fusionado. Sonó
+peor de lo que fue: el agente y las citas **no dependen solo de esa base** —
+las conversaciones de WhatsApp y las reservas viven también en un fichero en
+Railway, y la agenda real es Google Calendar, no una tabla. Comprobado en vivo:
+con la base borrada, el agente seguía respondiendo sin caerse.
+
+**Lo que sí se perdió, sin vuelta atrás:** las cuentas de acceso al panel y al
+Hub (recreadas), el registro interno de auditoría, y lo que se tocara en el Hub
+entre el 20/09 y anoche (era la única pieza que dependía solo de esa base).
+
+**Dónde estamos ahora:** todo — agente, panel y Hub — vive en un único proyecto
+de Supabase que sí sigue en pie, `studio32-hub`. Ya no hay un proyecto de
+repuesto: no puede volver a pasar esto dos veces. Detalle completo en
+`reportes/2026-09-22-incidente-supabase.md`.
 
 ## ⚖️ Datos legales rellenados, y ya no queda nada bloqueando Google (17/09)
 
