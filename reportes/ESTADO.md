@@ -71,6 +71,15 @@ el dominio y el agente ya tiene dirección propia (`api.studio32.es`); **bloquea
 los datos del titular en la política de privacidad, que siguen siendo texto de ejemplo.
 Pasos y responsables en `notes/VERIFICACION-GOOGLE.md`.
 
+## ✉️ Los correos cuentan también que hacemos webs (24/09)
+
+Después de la oferta del asistente, cada correo añade una frase: "Aparte del asistente,
+también hacemos…" (webs con reserva, la ficha de Google, el correo con el nombre del
+negocio). Cuando hemos visto algo concreto en su web, la frase habla de eso. El asunto
+lleva ahora el nombre del negocio ("Pedir cita en…") en lugar de "Os escribimos de
+Studio32". Los 40 correos que esperan aprobación ya están reescritos así; los aprobados y
+los enviados no se han tocado. Detalle en `reportes/2026-09-24.md`.
+
 ## ✉️ Los correos se presentan y dicen qué ofrecemos (15/09)
 
 Estructura propuesta por Juanma: "Hola, soy [quien aprueba], de Studio32", algo bueno y
