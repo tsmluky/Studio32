@@ -71,6 +71,12 @@ el dominio y el agente ya tiene dirección propia (`api.studio32.es`); **bloquea
 los datos del titular en la política de privacidad, que siguen siendo texto de ejemplo.
 Pasos y responsables en `notes/VERIFICACION-GOOGLE.md`.
 
+## 🤖 Los borradores se aprueban solos a las 24 horas (24/09)
+
+Un borrador que pasa la revisión automática y lleva un día sin tocarse se aprueba solo,
+firmado por Francisco. Para frenar uno, editadlo o descartadlo en el Hub. El cupo sube a 30
+al día el lunes 28/09 y se queda ahí. Detalle en `reportes/2026-09-24.md`.
+
 ## ✉️ Los correos cuentan también que hacemos webs (24/09)
 
 Después de la oferta del asistente, cada correo añade una frase: "Aparte del asistente,
